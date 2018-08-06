@@ -1,0 +1,34 @@
+.darker{
+		background-color: #fff4f4  !important;
+
+	}
+	
+.hidden{
+        display:none;
+      }
+      
+      
+/*      #cbpads*/
+/*      {*/
+/*        height: 145px; */
+/*        width: 210px; */
+        /*max-width: ; */
+        /*max-height: ;*/
+/*}*/
+/*      }*/
+
+
+.jumbotron {
+    background-color:transparent !important; 
+     background-color: #fff4f4 !important; 
+    color: black !important; 
+
+}
+
+
+.jumbo {
+    /*background-color:transparent !important; */
+    /* background-color: #fff4f4 !important; */
+    color: black !important; 
+
+}
