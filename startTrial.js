@@ -563,81 +563,101 @@ function flowFinder()
             reviewOrder.classList.remove("hidden")
             secondButton.classList.remove("hidden")
             
-            words.innerHTML += `
-            Hello ${(localStorage.getItem("name"))}! 
-            Thank you for placing an order!
-            Your period is ${days} long.
-            `
-            if (products == 1){
-            words.innerHTML += `
-                        <br>
+            // words.innerHTML += `
+            // Hello ${(localStorage.getItem("name"))}! 
+            // Thank you for placing an order!
+            // Your period is ${days} long.
+            // `
+            // if (products == 1){
+            // words.innerHTML += `
+            //             <br>
 
-            You chose to buy all Pads.
-            `
-            }
+            // You chose to buy all Pads.
+            // `
+            // }
             
-            if (products == 2){
+            // if (products == 2){
+            // words.innerHTML += `
+            //             <br>
+
+            // You chose to buy all Tampons.
+            // `
+            // }
+            
+            //  if (products == 3){
+            // words.innerHTML += `
+            //             <br>
+
+            // You chose to buy a mix of  Tampons and Pads.
+            // `
+            // }
+            
+            // if(addOns == 1){
+            // words.innerHTML += `
+            //             <br>
+
+            // You chose to add snacks.
+            // `
+            // }
+            
+            //   if(addOns == 1){
+            // words.innerHTML += `
+            //             <br>
+
+            // You chose to add Skincare.
+            // `
+            // }
+            
+            //  if(addOns == 1){
+            // words.innerHTML += `
+            //             <br>
+
+            // You chose to add Makeup.
+            // `
+            // }
+
+            
+            // if(shipping == 1){
+            //     words.innerHTML += `
+            //             <br>
+
+            //     You chose to recieve the box the first of every month`
+            // }
+            // if(shipping == 3){
+            //     words.innerHTML += `
+            //             <br>
+
+            //     You chose to recieve the box according to your period cycle using our period tracker`
+            // }
+            // if(box == 1){
+            //     words.innerHTML += `
+            //             <br>
+
+            //     You chose to recieve the box according to your period cycle using our period tracker`
+            // }
+            
+            //   words.innerHTML += `
+            // <br>
+            // You chose to buy the Luna carepackage for ${months} months
+            // `
+            
+            
             words.innerHTML += `
-                        <br>
-
-            You chose to buy all Tampons.
-            `
-            }
-            
-             if (products == 3){
-            words.innerHTML += `
-                        <br>
-
-            You chose to buy a mix of  Tampons and Pads.
-            `
-            }
-            
-            if(addOns == 1){
-            words.innerHTML += `
-                        <br>
-
-            You chose to add snacks.
-            `
-            }
-            
-              if(addOns == 1){
-            words.innerHTML += `
-                        <br>
-
-            You chose to add Skincare.
-            `
-            }
-            
-             if(addOns == 1){
-            words.innerHTML += `
-                        <br>
-
-            You chose to add Makeup.
-            `
-            }
-
-            
-            if(shipping == 1){
-                words.innerHTML += `
-                        <br>
-
-                You chose to recieve the box the first of every month`
-            }
-            if(shipping == 3){
-                words.innerHTML += `
-                        <br>
-
-                You chose to recieve the box according to your period cycle using our period tracker`
-            }
-            if(box == 1){
-                words.innerHTML += `
-                        <br>
-
-                You chose to recieve the box according to your period cycle using our period tracker`
-            }
-            
-               words.innerHTML += `
+            Hello Hamida Mazumder! 
             <br>
-            You chose to buy the Luna carepackage for ${months} months
+            You period is 5 days long.
+            <br>
+            You chose both tampons and pads.
+            <br>
+            You also added snacks. 
+
+            <br>
+            2 Light Pads and 6 Light Tampons
+            2 Regular Pads and 6 Regular Tampons
+            2 Super Pads and 8 Super Tampons
+            <br>
+            Your chose box 2 so you wil recieve 16 pads and 6 tampons.
+            <br>
+            The box will be sent to you based on your cyce using our period tracker.
             `
 })

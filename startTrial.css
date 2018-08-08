@@ -199,14 +199,16 @@
 		position: relative;
 		height: 24em;
 		/*background: F0F0F0;*/
-		background: url("https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559400_960_720.jpg") center center;
+		/*background-image: "assets/css/images/bookshelf.jpg";*/
+		    background-image: url("assets/css/images/brownGals.jpg");
+
 		background-size: cover;
 		padding: 0;
 	}
 	
-	.bd
+	#girls
 {
-    font-size:150px;
+    font-size:90px;
     		color:white;
 
 }
@@ -215,4 +217,8 @@
 {
 					color: black;
 
+}
+
+.bd{
+	font-size:90px;
 }
