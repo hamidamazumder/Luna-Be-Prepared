@@ -11,8 +11,6 @@ let bodycare = document.querySelector('#bodycare')
 let padsandtampons = document.querySelector('#padsandtampons')
 
 
-
-
 let skincare =document.querySelector('#skincare')
 // let pantyliners = document.querySelector('#pantyliners')
 let skincareChoice
@@ -48,13 +46,20 @@ snacks.addEventListener('click', () => {
 })
 
 daysSubmit.addEventListener('click', () =>{
-    user = localStorage.getItem("user")
-    user = JSON.parse(user)
-    user.skinCare = skincareChoice
-  console.log(user)
- firebase.database().ref('/users').push(user).then(()=>{
-      window.location = "custom.html"
+//     user = localStorage.getItem("user")
+//     user = JSON.parse(user)
+//     user.skinCare = skincareChoice
+//   console.log(user)
+// firebase.database().ref('/users').push(user).then(()=>{
+      window.location = "numberOfBoxes.html"
     })
-})
+// })
 
-   
+//   daysSubmit.addEventListener('click', () =>{
+//     user = localStorage.getItem("user")
+//     user = JSON.parse(user)
+//     user.skinCare = skincareChoice
+//   console.log(user)
+// firebase.database().ref('/users').push(user).then(()=>{
+//       window.location = "custom.html"
+//     })

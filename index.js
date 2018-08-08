@@ -1,5 +1,5 @@
 let startTrial = document.querySelector('#startTrialButton')
-
+let product = document.querySelectorAll('.products')
 startTrial.addEventListener('click', e =>{
         signInWithGoogle()
     
@@ -31,5 +31,13 @@ function startup(){
 
 }
 
+    product.forEach(products => { //any word here for taco
+        products.addEventListener('click',  ()=>{
+        window.location = "products.html"
+        })
+        })
+        
+    window.location
 
     window.onload-startup()
+

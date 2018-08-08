@@ -2578,7 +2578,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#page-wrapper {
+			#-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;

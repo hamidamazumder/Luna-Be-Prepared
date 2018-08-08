@@ -32,3 +32,187 @@
     color: black !important; 
 
 }
+
+/*#image*/
+/*{    */
+/*    position:absolute;*/
+/*    left:0;*/
+/*    top:0;*/
+/*}*/
+
+.textfun
+{
+    color:grey;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#girls
+{
+    font-size:125px;
+    		color:white;
+
+}
+
+	#headerBlog {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		/*background: F0F0F0;*/
+		background: url("https://fixcom.azureedge.net/assets/content/19965/a-guide-to-succulents-header.png") center center;
+		background-size: cover;
+		padding: 0;
+	}
+	
+	#navBlog {
+		position: absolute;
+		display: block;
+		top: 2.5em;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+		#navBlog > ul {
+			display: inline-block;
+			border-radius: 0.35em;
+			box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+			padding: 0 1.5em 0 1.5em;
+		}
+
+			#navBlog > ul > li {
+				display: inline-block;
+				text-align: center;
+				padding: 0 1.5em 0 1.5em;
+			}
+
+				#navBlog > ul > li > ul {
+
+					display: none;
+				}
+
+				#navBlog > ul > li > a, #nav > ul > li > span {
+					
+					display: block;
+					color: white;
+					/*color: rgba(255, 255, 255, 0.75);*/
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 1em;
+					letter-spacing: 0.25em;
+					height: 5em;
+					line-height: 5em;
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-o-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+					outline: 1;
+					    font-weight:bold;
+
+				}
+
+				#navBlog > ul > li:hover > a {
+			color: white;
+								    font-weight:bold;
+
+				}
+
+				#navBlog > ul > li.active > a, #nav > ul > li.active > span {
+			color: white;
+								    font-weight:bold;
+
+				}
+
+	.dropotron {
+		background: #222835 url("images/overlay.png");
+		background-color: rgba(44, 50, 63, 0.925);
+		padding: 1.25em 1em 1.25em 1em;
+		border-radius: 0.35em;
+		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+		min-width: 12em;
+		text-align: left;
+		margin-top: -1.25em;
+		margin-left: -1px;
+		list-style: none;
+	}
+
+		.dropotron.level-0 {
+			margin-top: -1px;
+			margin-left: 0;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+
+		.dropotron a, .dropotron span {
+			-moz-transition: all .25s ease-in-out;
+			-webkit-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+			display: block;
+			color: #eee;
+			color: rgba(255, 255, 255, 0.75);
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 0.7em;
+			letter-spacing: 0.25em;
+			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			line-height: 3em;
+		}
+
+		.dropotron li {
+			padding-left: 0;
+		}
+
+			.dropotron li:first-child a, .dropotron li:first-child span {
+				border-top: 0;
+			}
+
+			.dropotron li:hover > a, .dropotron li:hover > span {
+				color: #fff;
+			}
+			
+			#headerCharity {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		/*background: F0F0F0;*/
+		background: url("https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559400_960_720.jpg") center center;
+		background-size: cover;
+		padding: 0;
+	}
+	
+	.bd
+{
+    font-size:150px;
+    		color:white;
+
+}
+
+.jumboText
+{
+					color: black;
+
+}
