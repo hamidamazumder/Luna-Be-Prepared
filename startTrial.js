@@ -650,14 +650,19 @@ function flowFinder()
             You chose both tampons and pads.
             <br>
             You also added snacks. 
+            <br>
+                        Your chose box 2 so you wil recieve 16 pads and 6 tampons.
+                                    <br>
 
-            <br>
+
             2 Light Pads and 6 Light Tampons
+                        <br>
+
             2 Regular Pads and 6 Regular Tampons
+                        <br>
+
             2 Super Pads and 8 Super Tampons
-            <br>
-            Your chose box 2 so you wil recieve 16 pads and 6 tampons.
             <br>
             The box will be sent to you based on your cyce using our period tracker.
             `
-})
+    })

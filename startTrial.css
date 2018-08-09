@@ -222,3 +222,29 @@
 .bd{
 	font-size:90px;
 }
+
+.twocycles{
+		font-size:25px;
+					text-transform: none;
+					color: black;
+					text-align: center;
+
+}
+
+.back{
+	background-color:  #fff4f4 !important;
+}
+
+.plus{
+			font-size:150px;
+
+}
+
+.end{
+						color: black;
+
+}
+
+.whites{
+	background-color:white !important;
+}
